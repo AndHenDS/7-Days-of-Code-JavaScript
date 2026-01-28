@@ -24,7 +24,7 @@ decorar a sintaxe.
 
     7-Days-of-Code-JavaScript/
     ├── Day_1/
-    │   └── script.js
+    │   └── scrip.js
 
 Cada pasta representa um dia do desafio, contendo os exercícios e
 desafios propostos.
