@@ -1,0 +1,74 @@
+ const linguagensValidas = [
+    'html', 'css', 'typescript', 'javascript', 'python', 'java', 'php',
+    'ruby', 'go', 'rust', 'kotlin', 'swift', 'scala',
+    'dart', 'elixir', 'c', 'c++', 'sql', 'mysql',
+    'postgresql', 'transact-sql', 'oraclesql', 'c#'
+]
+
+
+    while (!linguagensValidas.includes(linguagem)) {
+
+        if (
+            linguagem === 'html' ||
+            linguagem === 'css' ||
+            linguagem === 'typescript' ||
+            linguagem === 'javascript'
+        ) {
+
+            alert('Essa linguagem é usada para criar a parte visual de aplicações e definir como o usuário interage com o sistema.');
+
+
+        } else if (
+            linguagem === 'python' ||
+            linguagem === 'java' ||
+            linguagem === 'php' ||
+            linguagem === 'ruby' ||
+            linguagem === 'kotlin' ||
+            linguagem === 'swift' ||
+            linguagem === 'scala' ||
+            linguagem === 'dart') {
+
+            alert('Essa linguagem é usada no lado do servidor para criar regras, processar dados e sustentar aplicações.');
+
+        } else if (
+            linguagem === 'go' ||
+            linguagem === 'rust') {
+
+            alert('Essa linguagem foca em desempenho e eficiência, sendo indicada para sistemas que precisam ser rápidos e escaláveis.')
+
+        } else if (
+            linguagem === 'c' ||
+            linguagem === 'c++' ||
+            linguagem === 'c#') {
+
+            alert('Essa linguagem oferece controle direto sobre memória e recursos do sistema.')
+
+        } else if (
+            linguagem === 'sql' ||
+            linguagem === 'postgresql' ||
+            linguagem === 'transact-sql' ||
+            linguagem === 'oraclesql' ||
+            linguagem === 'mysql'
+        ) {
+
+            alert('Essa linguagem é usada para consultar e manipular dados em bancos de dados.')
+
+
+        } else if (linguagem === 'elixir') {
+
+            alert('Essa linguagem é voltada para sistemas concorrentes e aplicações distribuídas.')
+
+        } else {
+            alert('Invalido')
+        }
+
+    }
+
+} else {
+
+    alert('Até a proxima')
+
+}
+
+
+
